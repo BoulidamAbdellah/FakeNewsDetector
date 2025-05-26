@@ -181,12 +181,3 @@ seaborn    # Si vous générez des graphiques dans les notebooks et voulez fixer
 
 ---
 
-**Conseils supplémentaires pour votre dépôt GitHub :**
-
-1.  **`.gitignore` :** Assurez-vous d'avoir un fichier `.gitignore` pour exclure les fichiers inutiles ou sensibles (comme les environnements virtuels `venv/`, les caches Python `__pycache__/`, les fichiers de configuration locaux avec des clés API, les gros fichiers de données si vous ne voulez pas les versionner).
-2.  **Licence :** Si c'est un projet public, ajoutez un fichier `LICENSE` (par exemple, MIT, Apache 2.0).
-3.  **Chemins de fichiers :** Vérifiez que tous les chemins de fichiers dans votre code (notebooks, `app.py`) sont relatifs à la racine du projet ou gérés de manière à ce que d'autres utilisateurs puissent exécuter le code sans modifications majeures.
-4.  **Taille des données :** Les fichiers CSV peuvent être volumineux. GitHub a des limites de taille pour les fichiers et les dépôts. Si vos fichiers de données sont trop gros, envisagez de les héberger ailleurs (par exemple, Google Drive, Kaggle Datasets, AWS S3) et de fournir des instructions de téléchargement dans le README.
-5.  **Clés API :** **Répétez : Ne committez jamais de clés API directement dans votre code sur un dépôt public.** Utilisez des variables d'environnement, Streamlit Secrets, ou des fichiers de configuration locaux (ajoutés au `.gitignore`).
-
-J'espère que cela vous aidera à créer un excellent dépôt GitHub pour votre projet !
